@@ -1,0 +1,41 @@
+﻿# ===== DATASETS =====
+/data/
+/prepared/
+*.zip
+*.tar
+*.tar.gz
+*.crdownload
+
+# ===== PYTHON ENVIRONMENTS =====
+.venv/
+venv/
+env/
+.cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# ===== TRAINING OUTPUTS =====
+/runs/
+/checkpoints/
+/weights/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.safetensors
+
+# ===== LOGS =====
+*.log
+events.out.tfevents.*
+
+# ===== LOCAL CONFIG =====
+.env
+.env.*
+!.env.example
+
+# ===== IDE / SYSTEM =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

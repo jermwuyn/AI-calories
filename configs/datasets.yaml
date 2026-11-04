@@ -1,0 +1,14 @@
+dataset_root: D:/Code/ai-calories-model/data/dataset-v1
+detection:
+  root: D:/Code/ai-calories-model/data/dataset-v1/detection
+  data_config: configs/detection-local.yaml
+  class_map: D:/Code/ai-calories-model/data/dataset-v1/detection/class_map.json
+  source_coverage: D:/Code/ai-calories-model/data/dataset-v1/detection/source_coverage.json
+  manifests: D:/Code/ai-calories-model/data/dataset-v1/manifests
+classification:
+  30vn:
+    images: D:/Code/ai-calories-model/data/dataset-v1/classification/30vn/images
+    class_map: D:/Code/ai-calories-model/data/dataset-v1/classification/30vn/class_map.json
+  vina21:
+    images: D:/Code/ai-calories-model/data/dataset-v1/classification/vina21/images
+    class_map: D:/Code/ai-calories-model/data/dataset-v1/classification/vina21/class_map.json
