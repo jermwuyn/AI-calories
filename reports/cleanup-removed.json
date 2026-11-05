@@ -1,0 +1,91 @@
+{
+  "removed": [
+    {
+      "path": "classification/__pycache__/__init__.cpython-311.pyc",
+      "bytes": 195,
+      "reason": "rebuildable Python bytecode with source present"
+    },
+    {
+      "path": "classification/__pycache__/data.cpython-311.pyc",
+      "bytes": 7104,
+      "reason": "rebuildable Python bytecode with source present"
+    },
+    {
+      "path": "classification/__pycache__/metrics.cpython-311.pyc",
+      "bytes": 4106,
+      "reason": "rebuildable Python bytecode with source present"
+    },
+    {
+      "path": "classification/__pycache__/model.cpython-311.pyc",
+      "bytes": 1627,
+      "reason": "rebuildable Python bytecode with source present"
+    },
+    {
+      "path": "classification/__pycache__/taxonomy.cpython-311.pyc",
+      "bytes": 5082,
+      "reason": "rebuildable Python bytecode with source present"
+    },
+    {
+      "path": "classification/__pycache__/unified.cpython-311.pyc",
+      "bytes": 10215,
+      "reason": "rebuildable Python bytecode with source present"
+    },
+    {
+      "path": "scripts/__pycache__/audit_nutrition5k.cpython-311.pyc",
+      "bytes": 20641,
+      "reason": "rebuildable Python bytecode with source present"
+    },
+    {
+      "path": "scripts/__pycache__/audit_unified_crops.cpython-311.pyc",
+      "bytes": 12312,
+      "reason": "rebuildable Python bytecode with source present"
+    },
+    {
+      "path": "scripts/__pycache__/build_taxonomy_v2.cpython-311.pyc",
+      "bytes": 26674,
+      "reason": "rebuildable Python bytecode with source present"
+    },
+    {
+      "path": "scripts/__pycache__/classification.cpython-311.pyc",
+      "bytes": 31065,
+      "reason": "rebuildable Python bytecode with source present"
+    },
+    {
+      "path": "scripts/__pycache__/prepare_unified.cpython-311.pyc",
+      "bytes": 35371,
+      "reason": "rebuildable Python bytecode with source present"
+    },
+    {
+      "path": "scripts/__pycache__/report_unified.cpython-311.pyc",
+      "bytes": 16011,
+      "reason": "rebuildable Python bytecode with source present"
+    },
+    {
+      "path": "scripts/__pycache__/validate_unified.cpython-311.pyc",
+      "bytes": 20106,
+      "reason": "rebuildable Python bytecode with source present"
+    },
+    {
+      "path": "tests/__pycache__/test_classification_pipeline.cpython-311.pyc",
+      "bytes": 13801,
+      "reason": "rebuildable Python bytecode with source present"
+    },
+    {
+      "path": "tests/__pycache__/test_taxonomy_v2.cpython-311.pyc",
+      "bytes": 4284,
+      "reason": "rebuildable Python bytecode with source present"
+    },
+    {
+      "path": "tests/__pycache__/test_unified_pipeline.cpython-311.pyc",
+      "bytes": 10769,
+      "reason": "rebuildable Python bytecode with source present"
+    },
+    {
+      "path": ".cache/notebook-crops.png",
+      "bytes": 1854500,
+      "reason": "temporary notebook preview; reproducible from notebook"
+    }
+  ],
+  "total_bytes": 2073863,
+  "large_or_irrecoverable_deleted": false
+}

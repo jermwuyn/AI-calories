@@ -1,0 +1,15 @@
+dataset: unified4
+manifest_root: prepared/unified-food-4
+architecture: efficientnet_b0
+pretrained: true
+seed: null
+batch_size: 32
+workers: 2
+head_epochs: 3
+finetune_epochs: 25
+head_lr: 0.001
+finetune_lr: 0.0001
+weight_decay: 0.0001
+gradient_clip: 1.0
+patience: 7
+amp: true

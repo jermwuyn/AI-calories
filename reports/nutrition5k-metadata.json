@@ -1,0 +1,124 @@
+{
+  "csv_files": {
+    "nutrition5k_dataset/metadata/ingredients_metadata.csv": {
+      "rows": 556,
+      "bytes": 21540
+    },
+    "nutrition5k_dataset/metadata/dish_metadata_cafe1.csv": {
+      "rows": 4768,
+      "bytes": 2206282
+    },
+    "nutrition5k_dataset/metadata/dish_metadata_cafe2.csv": {
+      "rows": 238,
+      "bytes": 101817
+    }
+  },
+  "id_lists": {
+    "nutrition5k_dataset/dish_ids/splits/rgb_train_ids.txt": {
+      "rows": 4059,
+      "unique": 4059,
+      "duplicates": 0
+    },
+    "nutrition5k_dataset/dish_ids/splits/rgb_test_ids.txt": {
+      "rows": 709,
+      "unique": 709,
+      "duplicates": 0
+    },
+    "nutrition5k_dataset/dish_ids/splits/depth_test_ids.txt": {
+      "rows": 507,
+      "unique": 507,
+      "duplicates": 0
+    },
+    "nutrition5k_dataset/dish_ids/splits/depth_train_ids.txt": {
+      "rows": 2758,
+      "unique": 2758,
+      "duplicates": 0
+    },
+    "nutrition5k_dataset/dish_ids/dish_ids_cafe2.txt": {
+      "rows": 238,
+      "unique": 238,
+      "duplicates": 0
+    },
+    "nutrition5k_dataset/dish_ids/dish_ids_all.txt": {
+      "rows": 5006,
+      "unique": 5006,
+      "duplicates": 0
+    },
+    "nutrition5k_dataset/dish_ids/dish_ids_cafe1.txt": {
+      "rows": 4768,
+      "unique": 4768,
+      "duplicates": 0
+    }
+  },
+  "issues": [],
+  "dish_rows": 5006,
+  "unique_metadata_dishes": 5006,
+  "nutrition_fields": [
+    "calories_kcal",
+    "mass_g",
+    "fat_g",
+    "carbohydrate_g",
+    "protein_g"
+  ],
+  "zero_values": {
+    "carbohydrate_g": 306,
+    "calories_kcal": 240,
+    "fat_g": 271,
+    "protein_g": 240
+  },
+  "invalid_values": {},
+  "zero_values_by_cafe": {
+    "dish_metadata_cafe1.csv": {
+      "carbohydrate_g": 68,
+      "calories_kcal": 2,
+      "fat_g": 33,
+      "protein_g": 2
+    },
+    "dish_metadata_cafe2.csv": {
+      "calories_kcal": 238,
+      "fat_g": 238,
+      "carbohydrate_g": 238,
+      "protein_g": 238
+    }
+  },
+  "ingredient_value_errors": {},
+  "ingredient_master_unique_ids": 555,
+  "ingredient_records": 28455,
+  "unknown_ingredient_ids": {},
+  "ingredient_name_mismatches": 79,
+  "ingredient_blank_names": 79,
+  "declared_vs_ingredient_sum_disagreements_over_1pct_or_0_1": {
+    "mass_g": 263,
+    "calories_kcal": 238,
+    "fat_g": 235,
+    "carbohydrate_g": 238,
+    "protein_g": 237
+  },
+  "zero_total_with_positive_ingredient_sum": {
+    "calories_kcal": 238,
+    "fat_g": 235,
+    "carbohydrate_g": 238,
+    "protein_g": 237
+  },
+  "no_ingredient_rows": 0,
+  "malformed_examples": [],
+  "rgb_splits": {
+    "train": 4059,
+    "test": 709,
+    "train_test_overlap": 0,
+    "split_ids_without_metadata": 0
+  },
+  "depth_splits": {
+    "train": 2758,
+    "test": 507,
+    "train_test_overlap": 0,
+    "split_ids_without_metadata": 0
+  },
+  "dish_list_without_metadata": 0,
+  "metadata_without_dish_list": 0,
+  "metadata_outside_official_rgb_splits": 238,
+  "depth_split_not_subset_of_rgb_split": {
+    "train": 0,
+    "test": 0
+  }
+}

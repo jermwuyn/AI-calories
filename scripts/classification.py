@@ -24,25 +24,35 @@ from classification.metrics import Metrics
 from classification.model import build_model, set_stage, set_train_mode
 
 
-def seed_all(seed):
-    random.seed(seed)
-    np.random.seed(seed)
-    torch.manual_seed(seed)
-    torch.cuda.manual_seed_all(seed)
+def configure_determinism():
     torch.backends.cudnn.benchmark = False
     torch.backends.cudnn.deterministic = True
     torch.use_deterministic_algorithms(True, warn_only=True)
 
 
+def seed_all(seed):
+    if seed is None:
+        return
+    random.seed(seed)
+    np.random.seed(seed)
+    torch.manual_seed(seed)
+    torch.cuda.manual_seed_all(seed)
+    configure_determinism()
+
+
 def make_loader(dataset, cfg, split, epoch=0):
-    generator = torch.Generator().manual_seed(cfg['seed'] + epoch)
+    generator = None if cfg['seed'] is None else torch.Generator().manual_seed(cfg['seed'] + epoch)
     return DataLoader(dataset, batch_size=cfg['batch_size'], shuffle=(split == 'train'),
                       num_workers=cfg['workers'], pin_memory=torch.cuda.is_available(), generator=generator)
 
 
 def load_datasets(cfg, splits):
-    root, mapping = load_spec(PROJECT, cfg['dataset_config'], cfg['dataset'])
-    datasets = {s: ManifestDataset(root, mapping, s) for s in splits}
+    if cfg['dataset'] == 'unified4':
+        from classification.unified import load_unified
+        root, mapping, datasets = load_unified(PROJECT, cfg, splits)
+    else:
+        root, mapping = load_spec(PROJECT, cfg['dataset_config'], cfg['dataset'])
+        datasets = {s: ManifestDataset(root, mapping, s) for s in splits}
     seen = set()
     for split, dataset in datasets.items():
         if seen.intersection(dataset.ids):
@@ -105,13 +115,17 @@ def save_checkpoint(path, model, optimizer, scheduler, scaler, epoch, best, bad_
                 'scheduler': scheduler.state_dict(), 'scaler': scaler.state_dict(), 'epoch': epoch,
                 'best_validation_macro_f1': best, 'bad_epochs': bad_epochs, 'stage': stage,
                 'config': cfg, 'dataset': {'head': mapping['head'], 'class_map': mapping,
-                                           'dataset_root': str(root), 'dataset_version': 'dataset-v1'},
+                                           'dataset_root': str(root), 'dataset_version': mapping.get('version', 'dataset-v1')},
                 'history': history, 'rng': rng_state()}, path)
 
 
 def train(cfg, output, resume):
-    seed_all(cfg['seed'])
-    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    if resume:
+        if cfg['seed'] is not None:
+            configure_determinism()
+    else:
+        seed_all(cfg['seed'])
+    device = torch.device(cfg.get('device') or ('cuda' if torch.cuda.is_available() else 'cpu'))
     amp = bool(cfg['amp'] and device.type == 'cuda')
     root, mapping, data = load_datasets(cfg, ('train', 'val'))
     if resume:
@@ -219,7 +233,7 @@ def evaluate(checkpoint, split, output):
 
 def smoke(cfg):
     seed_all(cfg['seed'])
-    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    device = torch.device(cfg.get('device') or ('cuda' if torch.cuda.is_available() else 'cpu'))
     amp = bool(cfg['amp'] and device.type == 'cuda')
     root, mapping, data = load_datasets(cfg, ('train', 'val', 'test'))
     model = build_model(cfg['architecture'], len(mapping['classes']), cfg['pretrained']).to(device)
@@ -229,15 +243,27 @@ def smoke(cfg):
     set_train_mode(model, 'head')
     x, y = next(iter(make_loader(data['train'], cfg, 'train')))
     x, y = x.to(device), y.to(device)
-    optimizer.zero_grad(set_to_none=True)
-    with torch.autocast(device_type=device.type, enabled=amp):
-        logits = model(x)
-        loss = nn.functional.cross_entropy(logits, y)
-    scaler.scale(loss).backward()
-    scaler.unscale_(optimizer)
-    norm = torch.nn.utils.clip_grad_norm_(model.parameters(), cfg['gradient_clip'])
-    scaler.step(optimizer)
-    scaler.update()
+    def update(optimizer):
+        # AMP may skip an update while it reduces its scale after overflow.
+        # A smoke test must confirm that an optimizer step actually succeeds.
+        for attempt in range(12):
+            optimizer.zero_grad(set_to_none=True)
+            with torch.autocast(device_type=device.type, enabled=amp):
+                logits = model(x)
+                loss = nn.functional.cross_entropy(logits, y)
+            if not torch.isfinite(loss):
+                raise RuntimeError('Non-finite smoke loss')
+            scaler.scale(loss).backward()
+            scaler.unscale_(optimizer)
+            norm = torch.nn.utils.clip_grad_norm_(model.parameters(), cfg['gradient_clip'])
+            scaler.step(optimizer)
+            scaler.update()
+            if torch.isfinite(norm):
+                return logits, loss, norm, attempt
+            if not amp:
+                raise RuntimeError('Non-finite smoke gradient')
+        raise RuntimeError('AMP gradient remained non-finite after scale backoff')
+    logits, loss, norm, head_backoffs = update(optimizer)
     model.eval()
     vx, vy = next(iter(make_loader(data['val'], cfg, 'val')))
     with torch.inference_mode(), torch.autocast(device_type=device.type, enabled=amp):
@@ -245,14 +271,7 @@ def smoke(cfg):
         val_loss = nn.functional.cross_entropy(val_logits, vy.to(device))
     set_train_mode(model, 'finetune')
     optimizer, _ = make_optim(model, cfg, 'finetune')
-    optimizer.zero_grad(set_to_none=True)
-    with torch.autocast(device_type=device.type, enabled=amp):
-        finetune_loss = nn.functional.cross_entropy(model(x), y)
-    scaler.scale(finetune_loss).backward()
-    scaler.unscale_(optimizer)
-    finetune_norm = torch.nn.utils.clip_grad_norm_(model.parameters(), cfg['gradient_clip'])
-    scaler.step(optimizer)
-    scaler.update()
+    _, finetune_loss, finetune_norm, finetune_backoffs = update(optimizer)
     if device.type == 'cuda': torch.cuda.synchronize()
     print(json.dumps({'dataset': cfg['dataset'], 'device': str(device), 'pretrained': cfg['pretrained'],
                       'total_parameters': sum(p.numel() for p in model.parameters()),
@@ -261,6 +280,7 @@ def smoke(cfg):
                       'input': list(x.shape), 'logits': list(logits.shape), 'validation_logits': list(val_logits.shape),
                       'loss': float(loss.detach()), 'validation_loss': float(val_loss), 'gradient_norm': float(norm),
                       'finetune_loss': float(finetune_loss.detach()), 'finetune_gradient_norm': float(finetune_norm),
+                      'amp_backoff_steps': {'head': head_backoffs, 'finetune': finetune_backoffs},
                       'peak_allocated_mib': round(torch.cuda.max_memory_allocated() / 2**20, 2) if device.type == 'cuda' else None,
                       'peak_reserved_mib': round(torch.cuda.max_memory_reserved() / 2**20, 2) if device.type == 'cuda' else None}, indent=2), flush=True)
 
@@ -269,7 +289,8 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('command', choices=['train', 'evaluate', 'smoke'])
     parser.add_argument('--config', default='configs/classification-exp001.yaml')
-    parser.add_argument('--dataset', choices=['30vn', 'vina21'])
+    parser.add_argument('--dataset', choices=['30vn', 'vina21', 'unified4'])
+    parser.add_argument('--device', choices=['cpu', 'cuda'])
     parser.add_argument('--pretrained', action=argparse.BooleanOptionalAction, default=None)
     parser.add_argument('--output', type=Path)
     parser.add_argument('--resume', type=Path)
@@ -283,7 +304,7 @@ def main():
         evaluate(args.checkpoint, args.split, args.output)
         return
     cfg = yaml.safe_load((PROJECT / args.config).read_text(encoding='utf-8'))
-    for name in ('dataset', 'pretrained', 'batch_size', 'workers'):
+    for name in ('dataset', 'pretrained', 'batch_size', 'workers', 'device'):
         value = getattr(args, name)
         if value is not None: cfg[name] = value
     if cfg['head_epochs'] < 0 or cfg['finetune_epochs'] < 0 or cfg['head_epochs'] + cfg['finetune_epochs'] <= 0 or cfg['patience'] < 1 or cfg['batch_size'] < 1 or cfg['workers'] < 0:

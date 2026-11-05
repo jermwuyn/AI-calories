@@ -1,0 +1,3026 @@
+{
+  "missing_cameras": {
+    "dish_1551378099": [
+      "camera_B.h264"
+    ],
+    "dish_1556572657": [
+      "camera_A.h264",
+      "camera_B.h264"
+    ],
+    "dish_1558029518": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1558031675": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1558109511": [
+      "camera_A.h264"
+    ],
+    "dish_1558109714": [
+      "camera_A.h264"
+    ],
+    "dish_1558109864": [
+      "camera_A.h264"
+    ],
+    "dish_1558109907": [
+      "camera_A.h264"
+    ],
+    "dish_1558109945": [
+      "camera_A.h264"
+    ],
+    "dish_1558109986": [
+      "camera_A.h264"
+    ],
+    "dish_1558110245": [
+      "camera_A.h264"
+    ],
+    "dish_1558110297": [
+      "camera_A.h264"
+    ],
+    "dish_1558110335": [
+      "camera_A.h264"
+    ],
+    "dish_1558110385": [
+      "camera_A.h264"
+    ],
+    "dish_1558110436": [
+      "camera_A.h264"
+    ],
+    "dish_1558110478": [
+      "camera_A.h264"
+    ],
+    "dish_1558468285": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1558468731": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1558628339": [
+      "camera_A.h264"
+    ],
+    "dish_1558628515": [
+      "camera_A.h264"
+    ],
+    "dish_1558628711": [
+      "camera_A.h264"
+    ],
+    "dish_1558628760": [
+      "camera_A.h264"
+    ],
+    "dish_1558628888": [
+      "camera_A.h264"
+    ],
+    "dish_1558628921": [
+      "camera_A.h264"
+    ],
+    "dish_1558628956": [
+      "camera_A.h264"
+    ],
+    "dish_1558629013": [
+      "camera_A.h264"
+    ],
+    "dish_1558629041": [
+      "camera_A.h264"
+    ],
+    "dish_1558629398": [
+      "camera_A.h264"
+    ],
+    "dish_1558629444": [
+      "camera_A.h264"
+    ],
+    "dish_1558629488": [
+      "camera_A.h264"
+    ],
+    "dish_1558629517": [
+      "camera_A.h264"
+    ],
+    "dish_1558629578": [
+      "camera_A.h264"
+    ],
+    "dish_1558629644": [
+      "camera_A.h264"
+    ],
+    "dish_1558629677": [
+      "camera_A.h264"
+    ],
+    "dish_1558629715": [
+      "camera_A.h264"
+    ],
+    "dish_1558629818": [
+      "camera_A.h264"
+    ],
+    "dish_1558629878": [
+      "camera_A.h264"
+    ],
+    "dish_1558630006": [
+      "camera_A.h264"
+    ],
+    "dish_1558630038": [
+      "camera_A.h264"
+    ],
+    "dish_1558630072": [
+      "camera_A.h264"
+    ],
+    "dish_1558630176": [
+      "camera_A.h264"
+    ],
+    "dish_1558630207": [
+      "camera_A.h264"
+    ],
+    "dish_1558630288": [
+      "camera_A.h264"
+    ],
+    "dish_1558630325": [
+      "camera_A.h264"
+    ],
+    "dish_1558630450": [
+      "camera_A.h264"
+    ],
+    "dish_1558630488": [
+      "camera_A.h264"
+    ],
+    "dish_1558630600": [
+      "camera_A.h264"
+    ],
+    "dish_1558630649": [
+      "camera_A.h264"
+    ],
+    "dish_1558630737": [
+      "camera_A.h264"
+    ],
+    "dish_1558630814": [
+      "camera_A.h264"
+    ],
+    "dish_1558630867": [
+      "camera_A.h264"
+    ],
+    "dish_1558630932": [
+      "camera_A.h264"
+    ],
+    "dish_1558631825": [
+      "camera_A.h264"
+    ],
+    "dish_1558631872": [
+      "camera_A.h264"
+    ],
+    "dish_1558631904": [
+      "camera_A.h264"
+    ],
+    "dish_1558631932": [
+      "camera_A.h264"
+    ],
+    "dish_1558632080": [
+      "camera_A.h264"
+    ],
+    "dish_1558632130": [
+      "camera_A.h264"
+    ],
+    "dish_1558632198": [
+      "camera_A.h264"
+    ],
+    "dish_1558632233": [
+      "camera_A.h264"
+    ],
+    "dish_1558632445": [
+      "camera_A.h264"
+    ],
+    "dish_1558632475": [
+      "camera_A.h264"
+    ],
+    "dish_1558632799": [
+      "camera_A.h264"
+    ],
+    "dish_1558632921": [
+      "camera_A.h264"
+    ],
+    "dish_1558632959": [
+      "camera_A.h264"
+    ],
+    "dish_1558632990": [
+      "camera_A.h264"
+    ],
+    "dish_1558633158": [
+      "camera_A.h264"
+    ],
+    "dish_1558633221": [
+      "camera_A.h264"
+    ],
+    "dish_1558635400": [
+      "camera_A.h264"
+    ],
+    "dish_1558635489": [
+      "camera_A.h264"
+    ],
+    "dish_1558635523": [
+      "camera_A.h264"
+    ],
+    "dish_1558635546": [
+      "camera_A.h264"
+    ],
+    "dish_1558635618": [
+      "camera_A.h264"
+    ],
+    "dish_1558635865": [
+      "camera_A.h264"
+    ],
+    "dish_1558635933": [
+      "camera_A.h264"
+    ],
+    "dish_1558635962": [
+      "camera_A.h264"
+    ],
+    "dish_1558635994": [
+      "camera_A.h264"
+    ],
+    "dish_1558636028": [
+      "camera_A.h264"
+    ],
+    "dish_1558636388": [
+      "camera_A.h264"
+    ],
+    "dish_1558636483": [
+      "camera_A.h264"
+    ],
+    "dish_1558636514": [
+      "camera_A.h264"
+    ],
+    "dish_1558636544": [
+      "camera_A.h264"
+    ],
+    "dish_1558636582": [
+      "camera_A.h264"
+    ],
+    "dish_1558636763": [
+      "camera_A.h264"
+    ],
+    "dish_1558636813": [
+      "camera_A.h264"
+    ],
+    "dish_1558636868": [
+      "camera_A.h264"
+    ],
+    "dish_1558636902": [
+      "camera_A.h264"
+    ],
+    "dish_1558636928": [
+      "camera_A.h264"
+    ],
+    "dish_1558636980": [
+      "camera_A.h264"
+    ],
+    "dish_1558637214": [
+      "camera_A.h264"
+    ],
+    "dish_1558637247": [
+      "camera_A.h264"
+    ],
+    "dish_1558637351": [
+      "camera_A.h264"
+    ],
+    "dish_1558637393": [
+      "camera_A.h264"
+    ],
+    "dish_1558637423": [
+      "camera_A.h264"
+    ],
+    "dish_1558637698": [
+      "camera_A.h264"
+    ],
+    "dish_1558637769": [
+      "camera_A.h264"
+    ],
+    "dish_1558637865": [
+      "camera_A.h264"
+    ],
+    "dish_1558637896": [
+      "camera_A.h264"
+    ],
+    "dish_1558637932": [
+      "camera_A.h264"
+    ],
+    "dish_1558638137": [
+      "camera_A.h264"
+    ],
+    "dish_1558638163": [
+      "camera_A.h264"
+    ],
+    "dish_1558638216": [
+      "camera_A.h264"
+    ],
+    "dish_1558638246": [
+      "camera_A.h264"
+    ],
+    "dish_1558638292": [
+      "camera_A.h264"
+    ],
+    "dish_1558638844": [
+      "camera_A.h264"
+    ],
+    "dish_1558638896": [
+      "camera_A.h264"
+    ],
+    "dish_1558638924": [
+      "camera_A.h264"
+    ],
+    "dish_1558638954": [
+      "camera_A.h264"
+    ],
+    "dish_1558638983": [
+      "camera_A.h264"
+    ],
+    "dish_1558639012": [
+      "camera_A.h264"
+    ],
+    "dish_1558639045": [
+      "camera_A.h264"
+    ],
+    "dish_1558639089": [
+      "camera_A.h264"
+    ],
+    "dish_1558639138": [
+      "camera_A.h264"
+    ],
+    "dish_1558639167": [
+      "camera_A.h264"
+    ],
+    "dish_1558639195": [
+      "camera_A.h264"
+    ],
+    "dish_1558639221": [
+      "camera_A.h264"
+    ],
+    "dish_1558639266": [
+      "camera_A.h264"
+    ],
+    "dish_1558639306": [
+      "camera_A.h264"
+    ],
+    "dish_1558639335": [
+      "camera_A.h264"
+    ],
+    "dish_1558639362": [
+      "camera_A.h264"
+    ],
+    "dish_1558639412": [
+      "camera_A.h264"
+    ],
+    "dish_1558639440": [
+      "camera_A.h264"
+    ],
+    "dish_1558639482": [
+      "camera_A.h264"
+    ],
+    "dish_1558639526": [
+      "camera_A.h264"
+    ],
+    "dish_1558639555": [
+      "camera_A.h264"
+    ],
+    "dish_1558639588": [
+      "camera_A.h264"
+    ],
+    "dish_1558639630": [
+      "camera_A.h264"
+    ],
+    "dish_1558639662": [
+      "camera_A.h264"
+    ],
+    "dish_1558639673": [
+      "camera_A.h264"
+    ],
+    "dish_1558639683": [
+      "camera_A.h264"
+    ],
+    "dish_1558639752": [
+      "camera_A.h264"
+    ],
+    "dish_1558639787": [
+      "camera_A.h264"
+    ],
+    "dish_1558639818": [
+      "camera_A.h264"
+    ],
+    "dish_1558639849": [
+      "camera_A.h264"
+    ],
+    "dish_1558639876": [
+      "camera_A.h264"
+    ],
+    "dish_1558639907": [
+      "camera_A.h264"
+    ],
+    "dish_1558639949": [
+      "camera_A.h264"
+    ],
+    "dish_1558639979": [
+      "camera_A.h264"
+    ],
+    "dish_1558640008": [
+      "camera_A.h264"
+    ],
+    "dish_1558640039": [
+      "camera_A.h264"
+    ],
+    "dish_1558640074": [
+      "camera_A.h264"
+    ],
+    "dish_1558640105": [
+      "camera_A.h264"
+    ],
+    "dish_1558640145": [
+      "camera_A.h264"
+    ],
+    "dish_1558640190": [
+      "camera_A.h264"
+    ],
+    "dish_1558640238": [
+      "camera_A.h264"
+    ],
+    "dish_1558640267": [
+      "camera_A.h264"
+    ],
+    "dish_1558640294": [
+      "camera_A.h264"
+    ],
+    "dish_1558640311": [
+      "camera_A.h264"
+    ],
+    "dish_1558640373": [
+      "camera_A.h264"
+    ],
+    "dish_1558640418": [
+      "camera_A.h264"
+    ],
+    "dish_1558640450": [
+      "camera_A.h264"
+    ],
+    "dish_1558640477": [
+      "camera_A.h264"
+    ],
+    "dish_1558640513": [
+      "camera_A.h264"
+    ],
+    "dish_1558640563": [
+      "camera_A.h264"
+    ],
+    "dish_1558640593": [
+      "camera_A.h264"
+    ],
+    "dish_1558640604": [
+      "camera_A.h264"
+    ],
+    "dish_1558640614": [
+      "camera_A.h264"
+    ],
+    "dish_1558640671": [
+      "camera_A.h264"
+    ],
+    "dish_1558640705": [
+      "camera_A.h264"
+    ],
+    "dish_1558640748": [
+      "camera_A.h264"
+    ],
+    "dish_1558640781": [
+      "camera_A.h264"
+    ],
+    "dish_1558640808": [
+      "camera_A.h264"
+    ],
+    "dish_1558640849": [
+      "camera_A.h264"
+    ],
+    "dish_1558640882": [
+      "camera_A.h264"
+    ],
+    "dish_1558640917": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558640941": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558640979": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558641007": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558641037": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558641075": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558641108": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558641164": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558641200": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558641211": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558641253": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558641287": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558641320": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558641358": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558641391": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558641416": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558641442": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558641897": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558641926": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558641954": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558641989": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558642021": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558642089": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558642420": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558642458": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558642490": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558717604": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558717886": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558717969": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558718009": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558718051": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558718088": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558718587": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558718610": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558718649": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558718680": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558718906": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558718974": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558719040": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558719066": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558719097": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558719145": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558719215": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558719298": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558719336": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558719377": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558719401": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558719514": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558719570": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558719994": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558720097": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558720133": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558720236": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558720289": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558720335": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558720364": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558720396": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558720427": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558721272": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558721323": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558721345": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558721380": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558721434": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558721484": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558721533": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558721559": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558721587": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558721636": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558721669": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558721700": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558721726": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558721757": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558721827": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558721904": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558721931": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558721959": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558721980": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558722068": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558722103": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558722125": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558722171": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558722207": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558722247": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558722322": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558722370": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558722398": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558722434": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558722473": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558722636": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558722665": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558722685": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558722707": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558722748": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558722780": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558722842": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558722871": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558722883": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558722906": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558722931": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558722968": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558723015": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558723047": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558723073": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558723096": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558723123": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558723414": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558723449": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558723475": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558723512": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558723537": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558723568": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558723639": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558723671": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558723695": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558723719": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558723742": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558723777": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558723818": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558723847": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558723866": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558723894": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558723926": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558723960": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558723982": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558724005": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558724031": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558724574": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558724607": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558724633": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558724658": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558724689": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558724723": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558724766": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558724799": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558724853": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558724891": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558724912": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558724932": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558724959": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558724992": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558725049": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558725085": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558725112": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558725193": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558725226": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558725253": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558725286": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558725353": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558725403": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558725576": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558725621": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558725702": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558725734": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558725760": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558725786": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1558725829": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1559059924": [
+      "camera_A.h264"
+    ],
+    "dish_1559059954": [
+      "camera_A.h264"
+    ],
+    "dish_1559059992": [
+      "camera_A.h264"
+    ],
+    "dish_1559060055": [
+      "camera_A.h264"
+    ],
+    "dish_1559060106": [
+      "camera_A.h264"
+    ],
+    "dish_1559061675": [
+      "camera_A.h264"
+    ],
+    "dish_1559061752": [
+      "camera_A.h264"
+    ],
+    "dish_1559062005": [
+      "camera_A.h264"
+    ],
+    "dish_1559062051": [
+      "camera_A.h264"
+    ],
+    "dish_1559062082": [
+      "camera_A.h264"
+    ],
+    "dish_1559149615": [
+      "camera_A.h264"
+    ],
+    "dish_1559149650": [
+      "camera_A.h264"
+    ],
+    "dish_1559149688": [
+      "camera_A.h264"
+    ],
+    "dish_1559149719": [
+      "camera_A.h264"
+    ],
+    "dish_1559157454": [
+      "camera_A.h264"
+    ],
+    "dish_1559157777": [
+      "camera_A.h264"
+    ],
+    "dish_1559157919": [
+      "camera_A.h264"
+    ],
+    "dish_1559158263": [
+      "camera_A.h264"
+    ],
+    "dish_1559158354": [
+      "camera_A.h264"
+    ],
+    "dish_1559158425": [
+      "camera_A.h264"
+    ],
+    "dish_1559172356": [
+      "camera_A.h264"
+    ],
+    "dish_1559232986": [
+      "camera_A.h264"
+    ],
+    "dish_1559233055": [
+      "camera_A.h264"
+    ],
+    "dish_1559233102": [
+      "camera_A.h264"
+    ],
+    "dish_1559233144": [
+      "camera_A.h264"
+    ],
+    "dish_1559233445": [
+      "camera_A.h264"
+    ],
+    "dish_1559233570": [
+      "camera_A.h264"
+    ],
+    "dish_1559233627": [
+      "camera_A.h264"
+    ],
+    "dish_1559233715": [
+      "camera_A.h264"
+    ],
+    "dish_1559233756": [
+      "camera_A.h264"
+    ],
+    "dish_1559235639": [
+      "camera_A.h264"
+    ],
+    "dish_1559235690": [
+      "camera_A.h264"
+    ],
+    "dish_1559235771": [
+      "camera_A.h264"
+    ],
+    "dish_1559235815": [
+      "camera_A.h264"
+    ],
+    "dish_1559238435": [
+      "camera_A.h264"
+    ],
+    "dish_1559238481": [
+      "camera_A.h264"
+    ],
+    "dish_1559238566": [
+      "camera_A.h264"
+    ],
+    "dish_1559238608": [
+      "camera_A.h264"
+    ],
+    "dish_1559238993": [
+      "camera_A.h264"
+    ],
+    "dish_1559239151": [
+      "camera_A.h264"
+    ],
+    "dish_1559239256": [
+      "camera_A.h264"
+    ],
+    "dish_1559239369": [
+      "camera_A.h264"
+    ],
+    "dish_1559239753": [
+      "camera_A.h264"
+    ],
+    "dish_1559239912": [
+      "camera_A.h264"
+    ],
+    "dish_1559239985": [
+      "camera_A.h264"
+    ],
+    "dish_1559240089": [
+      "camera_A.h264"
+    ],
+    "dish_1559240216": [
+      "camera_A.h264"
+    ],
+    "dish_1559240256": [
+      "camera_A.h264"
+    ],
+    "dish_1559240382": [
+      "camera_A.h264"
+    ],
+    "dish_1559240441": [
+      "camera_A.h264"
+    ],
+    "dish_1559240510": [
+      "camera_A.h264"
+    ],
+    "dish_1559240875": [
+      "camera_A.h264"
+    ],
+    "dish_1559240908": [
+      "camera_A.h264"
+    ],
+    "dish_1559240987": [
+      "camera_A.h264"
+    ],
+    "dish_1559241099": [
+      "camera_A.h264"
+    ],
+    "dish_1559242066": [
+      "camera_A.h264"
+    ],
+    "dish_1559242155": [
+      "camera_A.h264"
+    ],
+    "dish_1559242221": [
+      "camera_A.h264"
+    ],
+    "dish_1559242324": [
+      "camera_A.h264"
+    ],
+    "dish_1559242568": [
+      "camera_A.h264"
+    ],
+    "dish_1559243139": [
+      "camera_A.h264"
+    ],
+    "dish_1559243704": [
+      "camera_A.h264"
+    ],
+    "dish_1559243887": [
+      "camera_A.h264"
+    ],
+    "dish_1559243974": [
+      "camera_A.h264"
+    ],
+    "dish_1559244305": [
+      "camera_A.h264"
+    ],
+    "dish_1559244417": [
+      "camera_A.h264"
+    ],
+    "dish_1559244546": [
+      "camera_A.h264"
+    ],
+    "dish_1559244598": [
+      "camera_A.h264"
+    ],
+    "dish_1559244649": [
+      "camera_A.h264"
+    ],
+    "dish_1559245340": [
+      "camera_A.h264"
+    ],
+    "dish_1559245589": [
+      "camera_A.h264"
+    ],
+    "dish_1559245654": [
+      "camera_A.h264"
+    ],
+    "dish_1559245697": [
+      "camera_A.h264"
+    ],
+    "dish_1559245801": [
+      "camera_A.h264"
+    ],
+    "dish_1559245848": [
+      "camera_A.h264"
+    ],
+    "dish_1559245920": [
+      "camera_A.h264"
+    ],
+    "dish_1559245979": [
+      "camera_A.h264"
+    ],
+    "dish_1559246053": [
+      "camera_A.h264"
+    ],
+    "dish_1559319826": [
+      "camera_A.h264"
+    ],
+    "dish_1559319860": [
+      "camera_A.h264"
+    ],
+    "dish_1559319902": [
+      "camera_A.h264"
+    ],
+    "dish_1559319971": [
+      "camera_A.h264"
+    ],
+    "dish_1559320019": [
+      "camera_A.h264"
+    ],
+    "dish_1559332418": [
+      "camera_A.h264"
+    ],
+    "dish_1559332487": [
+      "camera_A.h264"
+    ],
+    "dish_1559332795": [
+      "camera_A.h264"
+    ],
+    "dish_1559332822": [
+      "camera_A.h264"
+    ],
+    "dish_1559578551": [
+      "camera_A.h264"
+    ],
+    "dish_1559578579": [
+      "camera_A.h264"
+    ],
+    "dish_1559578599": [
+      "camera_A.h264"
+    ],
+    "dish_1559581198": [
+      "camera_A.h264"
+    ],
+    "dish_1559581236": [
+      "camera_A.h264"
+    ],
+    "dish_1559581333": [
+      "camera_A.h264"
+    ],
+    "dish_1559581356": [
+      "camera_A.h264"
+    ],
+    "dish_1559581378": [
+      "camera_A.h264"
+    ],
+    "dish_1560360030": [
+      "camera_A.h264",
+      "camera_B.h264"
+    ],
+    "dish_1560543465": [
+      "camera_A.h264"
+    ],
+    "dish_1560799277": [
+      "camera_B.h264"
+    ],
+    "dish_1561060925": [
+      "camera_A.h264",
+      "camera_C.h264"
+    ],
+    "dish_1561145732": [
+      "camera_B.h264"
+    ],
+    "dish_1561146758": [
+      "camera_B.h264"
+    ],
+    "dish_1561146781": [
+      "camera_B.h264"
+    ],
+    "dish_1561147944": [
+      "camera_B.h264"
+    ],
+    "dish_1561147967": [
+      "camera_B.h264"
+    ],
+    "dish_1561147997": [
+      "camera_B.h264"
+    ],
+    "dish_1561148021": [
+      "camera_B.h264"
+    ],
+    "dish_1561148042": [
+      "camera_B.h264"
+    ],
+    "dish_1561148303": [
+      "camera_B.h264"
+    ],
+    "dish_1561148336": [
+      "camera_B.h264"
+    ],
+    "dish_1561148481": [
+      "camera_B.h264"
+    ],
+    "dish_1561492519": [
+      "camera_C.h264"
+    ],
+    "dish_1561661449": [
+      "camera_D.h264"
+    ],
+    "dish_1561663035": [
+      "camera_A.h264"
+    ],
+    "dish_1561667238": [
+      "camera_A.h264"
+    ],
+    "dish_1561739188": [
+      "camera_A.h264"
+    ],
+    "dish_1561749392": [
+      "camera_C.h264"
+    ],
+    "dish_1561753432": [
+      "camera_C.h264"
+    ],
+    "dish_1561996084": [
+      "camera_A.h264"
+    ],
+    "dish_1561996122": [
+      "camera_A.h264"
+    ],
+    "dish_1561996369": [
+      "camera_A.h264"
+    ],
+    "dish_1561996401": [
+      "camera_A.h264"
+    ],
+    "dish_1561996428": [
+      "camera_A.h264"
+    ],
+    "dish_1561996535": [
+      "camera_A.h264"
+    ],
+    "dish_1561996554": [
+      "camera_A.h264"
+    ],
+    "dish_1561996579": [
+      "camera_A.h264"
+    ],
+    "dish_1561996612": [
+      "camera_A.h264"
+    ],
+    "dish_1561996647": [
+      "camera_A.h264"
+    ],
+    "dish_1561996750": [
+      "camera_A.h264"
+    ],
+    "dish_1561996786": [
+      "camera_A.h264"
+    ],
+    "dish_1561996813": [
+      "camera_A.h264"
+    ],
+    "dish_1561996836": [
+      "camera_A.h264"
+    ],
+    "dish_1561996859": [
+      "camera_A.h264"
+    ],
+    "dish_1561996893": [
+      "camera_A.h264"
+    ],
+    "dish_1561997248": [
+      "camera_A.h264"
+    ],
+    "dish_1561997274": [
+      "camera_A.h264"
+    ],
+    "dish_1561997299": [
+      "camera_A.h264"
+    ],
+    "dish_1561997365": [
+      "camera_A.h264"
+    ],
+    "dish_1561997401": [
+      "camera_A.h264"
+    ],
+    "dish_1561997900": [
+      "camera_A.h264"
+    ],
+    "dish_1561997933": [
+      "camera_A.h264"
+    ],
+    "dish_1562703345": [
+      "camera_C.h264"
+    ],
+    "dish_1562704665": [
+      "camera_C.h264"
+    ],
+    "dish_1562862550": [
+      "camera_C.h264"
+    ],
+    "dish_1562873838": [
+      "camera_C.h264"
+    ],
+    "dish_1562876645": [
+      "camera_B.h264"
+    ],
+    "dish_1563294408": [
+      "camera_C.h264"
+    ],
+    "dish_1563295334": [
+      "camera_A.h264"
+    ],
+    "dish_1563295360": [
+      "camera_B.h264"
+    ],
+    "dish_1563306039": [
+      "camera_B.h264"
+    ],
+    "dish_1563308353": [
+      "camera_A.h264"
+    ],
+    "dish_1563466280": [
+      "camera_C.h264"
+    ],
+    "dish_1563897369": [
+      "camera_C.h264"
+    ],
+    "dish_1563900205": [
+      "camera_C.h264"
+    ],
+    "dish_1564415022": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564415077": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564415140": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564415172": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564415293": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564415335": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564415365": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564415499": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564415538": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564415571": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564427406": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564427430": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564427455": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564428102": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564428144": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564428181": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564428404": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564428444": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564428475": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564428515": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564429184": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564429235": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564429270": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564429702": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564429744": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564429808": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564429843": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564429894": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564432094": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564432128": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564432165": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564432191": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564432238": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564502063": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564503184": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564503219": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564514906": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564514953": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564514997": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564515049": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564516366": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564516397": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564516429": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564516454": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564516483": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564516732": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564516760": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564518454": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564518488": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564518512": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564518542": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564518586": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564518850": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564588483": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564588533": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564588567": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564588688": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564588719": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564588820": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564588859": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564588889": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564588919": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564589025": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564589072": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564589308": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564589366": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564590115": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564590146": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564590190": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564590226": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564590254": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564590288": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564590352": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564601470": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564601528": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564601569": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564601600": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564601638": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564605293": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564605328": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564675060": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564675118": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564675157": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564675193": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564675240": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564675380": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564675411": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564685144": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564685183": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564685229": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564685360": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564685406": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564685450": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564685482": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564686657": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564686702": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564686740": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564686791": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564686832": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564686855": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564686966": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564687013": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564687046": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564687090": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564688969": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564689078": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564689108": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564689138": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564689168": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564689219": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564690038": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564690085": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564690138": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564690167": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564690194": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564691352": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564691380": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564691420": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564691450": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564761388": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564761426": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564761457": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564761488": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564773826": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564773847": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564773876": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564773903": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564773942": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564773976": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564774773": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564774805": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564775147": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564775182": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564775216": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564777933": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564777960": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564777986": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564778030": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1564778057": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1565020755": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1565020796": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1565020822": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1565020867": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1565020895": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1565020926": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1565021011": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1565021054": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1565021104": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1565021141": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1565021185": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1565021220": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1565021599": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1565021640": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1565021675": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1565021714": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1565021965": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1565022027": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1565022062": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1565119698": [
+      "camera_D.h264"
+    ],
+    "dish_1565640227": [
+      "camera_D.h264"
+    ],
+    "dish_1565640868": [
+      "camera_D.h264"
+    ],
+    "dish_1565724552": [
+      "camera_D.h264"
+    ],
+    "dish_1565727791": [
+      "camera_D.h264"
+    ],
+    "dish_1565799617": [
+      "camera_D.h264"
+    ],
+    "dish_1565810205": [
+      "camera_C.h264"
+    ],
+    "dish_1565811139": [
+      "camera_C.h264"
+    ],
+    "dish_1565811423": [
+      "camera_D.h264"
+    ],
+    "dish_1565811529": [
+      "camera_D.h264"
+    ],
+    "dish_1565811588": [
+      "camera_D.h264"
+    ],
+    "dish_1565812116": [
+      "camera_D.h264"
+    ],
+    "dish_1565812146": [
+      "camera_D.h264"
+    ],
+    "dish_1565812186": [
+      "camera_D.h264"
+    ],
+    "dish_1565813386": [
+      "camera_D.h264"
+    ],
+    "dish_1565813414": [
+      "camera_D.h264"
+    ],
+    "dish_1565813446": [
+      "camera_D.h264"
+    ],
+    "dish_1565987015": [
+      "camera_D.h264"
+    ],
+    "dish_1566245398": [
+      "camera_D.h264"
+    ],
+    "dish_1566316726": [
+      "camera_C.h264"
+    ],
+    "dish_1566402041": [
+      "camera_A.h264"
+    ],
+    "dish_1566402095": [
+      "camera_A.h264"
+    ],
+    "dish_1566402123": [
+      "camera_A.h264"
+    ],
+    "dish_1566402160": [
+      "camera_A.h264"
+    ],
+    "dish_1566402197": [
+      "camera_A.h264"
+    ],
+    "dish_1566402232": [
+      "camera_A.h264"
+    ],
+    "dish_1566413419": [
+      "camera_C.h264"
+    ],
+    "dish_1566488905": [
+      "camera_A.h264"
+    ],
+    "dish_1566488928": [
+      "camera_A.h264"
+    ],
+    "dish_1566488956": [
+      "camera_A.h264"
+    ],
+    "dish_1566488981": [
+      "camera_A.h264"
+    ],
+    "dish_1566849387": [
+      "camera_C.h264"
+    ],
+    "dish_1566923060": [
+      "camera_C.h264"
+    ],
+    "dish_1567542778": [
+      "camera_B.h264"
+    ],
+    "dish_1567612986": [
+      "camera_C.h264"
+    ],
+    "dish_1567785130": [
+      "camera_A.h264",
+      "camera_B.h264"
+    ],
+    "dish_1567785165": [
+      "camera_A.h264",
+      "camera_B.h264"
+    ],
+    "dish_1567785223": [
+      "camera_A.h264",
+      "camera_B.h264"
+    ],
+    "dish_1567785622": [
+      "camera_A.h264",
+      "camera_B.h264"
+    ],
+    "dish_1567785654": [
+      "camera_A.h264",
+      "camera_B.h264"
+    ],
+    "dish_1567785709": [
+      "camera_A.h264",
+      "camera_B.h264"
+    ],
+    "dish_1567785739": [
+      "camera_A.h264",
+      "camera_B.h264"
+    ],
+    "dish_1567785778": [
+      "camera_A.h264",
+      "camera_B.h264"
+    ],
+    "dish_1567801520": [
+      "camera_A.h264"
+    ],
+    "dish_1568649312": [
+      "camera_B.h264"
+    ],
+    "dish_1568649354": [
+      "camera_B.h264"
+    ],
+    "dish_1568649387": [
+      "camera_B.h264"
+    ],
+    "dish_1568649430": [
+      "camera_B.h264"
+    ],
+    "dish_1568665012": [
+      "camera_C.h264"
+    ],
+    "dish_1568666263": [
+      "camera_A.h264"
+    ],
+    "dish_1571945939": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1571946018": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1571946063": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1571946265": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1571946303": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1571946737": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1571946767": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1572278894": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1572278943": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1572278972": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1572365610": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1572453675": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1572453701": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1572453726": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1572453753": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1572453962": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1572454041": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1572538087": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1572538461": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1572886987": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1572887017": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1572974428": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1573060410": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1573147034": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1573156908": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1573156961": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1573232405": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1573232434": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1573232461": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1573232499": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1573232835": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1573233271": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1573233324": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1573848236": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1573848859": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1573849852": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1573849915": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1573849990": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1574098164": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1574098218": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1574098245": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1574269354": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1574269685": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1574357682": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1574443234": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1574443257": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1574443421": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1575307466": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1575307819": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1575307845": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ],
+    "dish_1575308389": [
+      "camera_A.h264",
+      "camera_B.h264",
+      "camera_C.h264",
+      "camera_D.h264"
+    ]
+  },
+  "metadata_ids_without_media": [
+    "dish_1564415022",
+    "dish_1564415077",
+    "dish_1564415140",
+    "dish_1564415172",
+    "dish_1564415293",
+    "dish_1564415335",
+    "dish_1564415365",
+    "dish_1564415499",
+    "dish_1564415538",
+    "dish_1564415571",
+    "dish_1564691352",
+    "dish_1565021011"
+  ],
+  "media_ids_without_metadata": [],
+  "depth_split_missing_rgb_png": [
+    "dish_1557862384",
+    "dish_1558109511",
+    "dish_1558109714"
+  ]
+}

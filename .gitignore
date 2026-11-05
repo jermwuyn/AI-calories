@@ -4,7 +4,17 @@
 *.zip
 *.tar
 *.tar.gz
+*.tgz
+*.7z
+*.rar
 *.crdownload
+*.partial
+*.part
+*.h264
+*.h265
+*.mp4
+*.mov
+*.mkv
 
 # ===== PYTHON ENVIRONMENTS =====
 .venv/
@@ -39,3 +49,11 @@ events.out.tfevents.*
 .idea/
 .DS_Store
 Thumbs.db
+
+# Local filesystem inventory
+/reports/repository-directory-sizes.json
+/reports/repository-inventory.json
+
+# Generated taxonomy review media
+/reports/taxonomy-v2-assets/
+/reports/taxonomy-review-v2.html

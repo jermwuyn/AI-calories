@@ -38,8 +38,25 @@ class PipelineTests(unittest.TestCase):
         self.assertAlmostEqual(result['macro_f1'], 5 / 9)
         self.assertEqual(result['confusion_matrix'], [[1, 0, 0], [0, 1, 0], [1, 0, 0]])
 
-    def test_resume_matches_uninterrupted_two_stages(self):
-        cfg = {'seed': 42, 'amp': False, 'dataset': 'synthetic', 'architecture': 'tiny',
+    def test_null_seed_does_not_set_seeds_or_determinism(self):
+        with patch.object(cli.random, 'seed') as py_seed, patch.object(cli.np.random, 'seed') as numpy_seed, \
+                patch.object(torch, 'manual_seed') as torch_seed, patch.object(torch.cuda, 'manual_seed_all') as cuda_seed, \
+                patch.object(torch, 'use_deterministic_algorithms') as deterministic:
+            cli.seed_all(None)
+            for mocked in (py_seed, numpy_seed, torch_seed, cuda_seed, deterministic):
+                mocked.assert_not_called()
+        dataset = TensorDataset(torch.arange(6))
+        loader = cli.make_loader(dataset, {'seed': None, 'batch_size': 2, 'workers': 0}, 'train')
+        self.assertIsNone(loader.generator)
+
+    def test_resume_matches_uninterrupted_with_fixed_seed(self):
+        self.check_resume(42)
+
+    def test_resume_matches_uninterrupted_with_null_seed(self):
+        self.check_resume(None)
+
+    def check_resume(self, seed):
+        cfg = {'seed': seed, 'amp': False, 'dataset': 'synthetic', 'architecture': 'tiny',
                'pretrained': False, 'batch_size': 3, 'workers': 0, 'head_epochs': 1,
                'finetune_epochs': 1, 'head_lr': 0.01, 'finetune_lr': 0.001,
                'weight_decay': 0.0, 'gradient_clip': 1.0, 'patience': 5}
@@ -60,11 +77,14 @@ class PipelineTests(unittest.TestCase):
         with tempfile.TemporaryDirectory(dir=ROOT) as tmp, patch.object(cli, 'load_datasets', load), \
                 patch.object(cli, 'build_model', build), patch('torch.cuda.is_available', return_value=False):
             baseline, resumed = Path(tmp) / 'baseline', Path(tmp) / 'resumed'
+            initial_rng = cli.rng_state()
             cli.train(cfg, baseline, None)
+            cli.restore_rng(initial_rng)
             with patch.object(cli, 'run_epoch', interrupt):
                 with self.assertRaisesRegex(RuntimeError, 'simulated interruption'):
                     cli.train(cfg, resumed, None)
-            cli.train(cfg, resumed, resumed / 'last.pth')
+            with patch.object(cli, 'seed_all', side_effect=AssertionError('resume must not reseed')):
+                cli.train(cfg, resumed, resumed / 'last.pth')
             a = torch.load(baseline / 'last.pth', weights_only=False, map_location='cpu')
             b = torch.load(resumed / 'last.pth', weights_only=False, map_location='cpu')
             self.assertEqual(a['epoch'], b['epoch'])
